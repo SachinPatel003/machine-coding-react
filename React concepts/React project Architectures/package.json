@@ -1,0 +1,67 @@
+{
+
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "asdasd",
+
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "prettier:check": "prettier --check '**/*.js'",
+    "prettier:fix": "prettier --write '**/*.js'",
+    "lint:check": "eslint . --ext .js",
+    "lint:fix": "eslint . --fix --ext .js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@hot-loader/react-dom": "^17.0.2",
+    "@mdx-js/react": "^2.1.2",
+    "@rollup/plugin-alias": "^5.0.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-loader": "^4.13.1",
+    "rollup": "^2.77.4-1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ]
+}
