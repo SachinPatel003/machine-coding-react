@@ -4,6 +4,7 @@ import ComponentTwo from "./components/ComponentTwo";
 import CompoundComp from "./compoundComponent/Card";
 import NormalComponent from "./compoundComponent/NormalComponent";
 import ToggleExample from "./customHook/ToggleExample";
+import HookTest from "./HookTest/HookTest";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       <NormalComponent /> */}
 
       <>Custom Hook</>
-      <ToggleExample />
+      {/* <ToggleExample /> */}
+      <HookTest />
     </>
   );
 };
